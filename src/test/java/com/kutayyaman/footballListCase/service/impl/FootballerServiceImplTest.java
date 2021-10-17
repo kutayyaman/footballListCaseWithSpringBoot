@@ -10,7 +10,7 @@ class FootballerServiceImplTest {
     @Test
     void findAllFootballerByTeamId(){
         Footballer footballer = new Footballer();
-        footballer.setFootballerName("Kutayy");
+        footballer.setFootballerName("Kutay");
 
         assertEquals("Kutay",footballer.getFootballerName());
     }
